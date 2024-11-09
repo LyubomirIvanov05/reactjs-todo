@@ -1,0 +1,14 @@
+.tasks-container{
+    height: 620px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #3B6665;
+    border-radius: 10px;
+    gap: 16px;
+    padding: 0;
+    list-style: none;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
